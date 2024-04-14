@@ -1,0 +1,56 @@
+@media (min-width: 460px) {
+
+ 
+}
+
+@media (min-width: 960px) {
+    html,
+    body {
+        font-size: 14px;
+    }
+    header{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    header section{
+        grid-template-columns: 1fr;
+    }
+    .ul_for_submenu {
+        list-style: none;
+        display: grid; 
+    }
+    .burger-menu{
+        display: none;
+    }
+    .user_logo{
+        display: none; 
+    }
+    .slogan{
+        grid-template-columns: 1fr 1fr;
+    }
+    .slogan div:nth-child(3){
+       margin-top: 2rem;
+    }
+}
+
+@media (min-width: 1366px) {
+    html,
+    body {
+        font-size: 16px;
+    }
+}
+@media (min-width: 1520px) {
+    html,
+    body {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1920px) {
+    html,
+    body {
+        font-size:24px;
+    }
+}
+
+
